@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Travel Stories</title>
+  </head>
+  <body>
+    <header>
+      <figure>
+        <img src="images/desert.jpg" alt="A desert with rolling sand dunes" />
+      </figure>
+      <nav>
+        <a href="stories.html">Stories</a>
+        <a href="contact.html">Contact</a>
+        <a href="index.html">Home</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Let's connect</h1>
+      <blockquote>
+        "Life is Either a daring adventure or nothing at all"
+      </blockquote>
+
+      <form action="index.html" method="POST">
+        <fieldset>
+          <legend>Your details</legend>
+        <label for="firstName">First Name</label>
+        <input
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="Your
+        Name"
+        />
+        <br />
+        <br />
+        <label for="lastName">Last Name</label>
+        <input
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="Your
+        Name"
+        />
+        <br />
+        <br />
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="Australia" selected>Australia</option>
+          <option>China</option>
+          <option>England</option>
+        </select>
+      </fieldset>
+        <br />
+        <br />
+        <fieldset>
+          <legend>How did you hear about us?</legend>
+          <label for="website">Website</label>
+          <input type="radio" name="social" id="website" />
+          <label for="facebook">Facebook</label>
+          <input type="radio" name="social" id="facebook" />
+        </fieldset>
+          <br />
+        <label for="comment">Leave your messsage here:</label>
+        <br />
+        <textarea
+          placeholder="Write something..."
+          rows="5"
+          cols="80"
+          id="comment"
+        >
+        </textarea>
+        <br />
+        <br />
+        <input type="submit" value="Submit"></input>
+      </form>
+      <br />
+    </main>
+    <footer>Copyright 2022. Made with love.</footer>
+  </body>
+</html>
